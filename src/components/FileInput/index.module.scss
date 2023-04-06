@@ -1,0 +1,23 @@
+.wrapper {
+    border-radius: 10px;
+    border: 1px dotted rgba(black, 0.5);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 35px 25px;
+}
+
+.input {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.hint {
+    color: rgba(black, 0.3);
+    text-align: center;
+    width: 100%;
+}

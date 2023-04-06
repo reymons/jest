@@ -1,0 +1,23 @@
+.wrapper {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    position: relative;
+    cursor: default;
+}
+
+.img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.cross {
+    position: absolute;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    right: -5px;
+}
